@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+autonomous_tb:change_map:statemachine
+=======
+statemachine
+>>>>>>> a866c9ff26d8b0371b9cf95afc0e5e6261580df8
+-DCATKIN_DEVEL_PREFIX=/home/deveshdatwani/capstone/devel -DCMAKE_INSTALL_PREFIX=/home/deveshdatwani/capstone/install -G Unix Makefiles
