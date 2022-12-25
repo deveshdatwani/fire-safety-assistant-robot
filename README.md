@@ -63,7 +63,9 @@ A combination of change detection scores and informed RRT* scores were hypothesi
 
 <p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/scenario1.png" width=700></p>
 
+Home owners can be notified of possible threats to seamless evacuation during fire emergencies.
 
+<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/notify.png"></p>
 
 
 
