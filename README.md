@@ -26,7 +26,7 @@ To solve this, my team and I proposed a fire assistant robot that can be based o
 
 We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
 
-<p align="center">![robotgif](https://user-images.githubusercontent.com/49936431/209477665-48755716-1b19-4809-bd12-0e322861aeb6.gif)</p>
+<p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/robotgif.gif" width=600></p>
 
 This was carried out through two methods, comparing ground truth and real time maps for detecting and locating obstacles.
 
