@@ -20,7 +20,7 @@ Below our are snapshots from our engagement with the Fire Chief and pictures of 
 
 After extensive research, it was infered that home dwellers are at maximum risk from dying in a fire incident. Below is a pie chart that illustrates fatalities during fire scenarious. A major factor is "tripping, falling" which is a surprising observation. 
 
-<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/data1pie.png" widht=300></p> 
+<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/robotgif.gif" widht=300></p> 
 
 To solve this, my team and I proposed a fire assistant robot that can be based off a roomba that maps the home and calculates safety scores by detecting and localizing objects along the way to the fire exit.
 
