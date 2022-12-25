@@ -26,11 +26,13 @@ We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor
 
 <p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/robotgif.gif" width=600></p>
 
+### The Solution
+
 This was carried out through two methods, comparing ground truth and real time maps for detecting and locating obstacles.
 
 This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
 
-<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=700></p>
+<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=800></p>
 
 The CD algorithm detects changes in an image and outputs a binary image with the changes only. This is done with PCA and K Means custering on difference image obtained from ground truth map and real time map.
 
@@ -42,11 +44,22 @@ We then used gaussian filters to evaluate safety of a room / building / floor by
 
 This filter is convolved with the change map at various exit locations shown below
 
-<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=700></p>
+<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=800></p>
 
 The sum of the convolutions was mapped to fire saftey of a home. 
 
 However, there was one issue with this, the choke points that could pose a threat to safety but were far from exits were not accounted for.  
+
+To solve this we developed Informed RRT* algorithm from multiple locations (each room) to the exit location to find increase in path lengths to observe safety preparedness. 
+
+We found out that increase in path lengths meant the presence of an obstacle while also indicating that it takes a longer path to safety. This could prove hazardeous in a fire emergency situation.
+
+<p align="center"><img src=""></p>
+
+### Final Product 
+
+A combination of change detection scores and informed RRT* scores were 
+
 
 
 
