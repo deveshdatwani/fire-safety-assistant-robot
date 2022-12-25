@@ -14,3 +14,4 @@ Identifying problem statement was the most challenging part as the stakeholders 
 
 Below our are snapshots from our engagement with the Fire Chief and pictures of the Professors we reached out to for problem statement identification.
 
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=300 width=300>
