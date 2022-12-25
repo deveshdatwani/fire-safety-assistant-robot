@@ -24,7 +24,7 @@ To solve this, my team and I proposed a fire assistant robot that can be based o
 
 We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
 
-<p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/roomba.png" width=300></p>
+<p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/roomba1.jpeg" width=300></p>
 <p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/robotgif.gif" width=600></p>
 
 ### The Solution
