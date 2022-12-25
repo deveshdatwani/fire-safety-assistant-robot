@@ -24,7 +24,7 @@ After extensive research, it was infered that home dwellers are at maximum risk 
 
 To solve this, my team and I proposed a fire assistant robot that can be based off a roomba that maps the home and calculates safety scores by detecting and localizing objects along the way to the fire exit.
 
-<img src="" >
+<img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/capbot.mp4" >
 
 We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
 
@@ -32,11 +32,17 @@ This was carried out through two methods, comparing ground truth and real time m
 
 This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
 
-<img src="" width=300>
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=300>
 
 The CD algorithm detects changes in an image and outputs a binary image with the changes only. 
 
 We then used gaussian filters to evaluate safety of a room / building / floor by penalizing changes (obstacles) very close to the fire exits.   
+
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/riskeval.png" width=300>
+
+This filter is convolved with the change map at various exit locations shown below
+
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=300>
 
 
 
