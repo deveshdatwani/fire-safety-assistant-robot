@@ -14,7 +14,7 @@ Identifying problem statement was the most challenging part as the stakeholders 
 
 Below our are snapshots from our engagement with the Fire Chief and pictures of the Professors we reached out to for problem statement identification.
 
-<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=500></p>
+<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=400></p>
 
 ### Indoor Fire Safety Assistance Robot
 
@@ -34,7 +34,9 @@ This was done through a Change Detection algorithm that was original intended fo
 
 <p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=700></p>
 
-The CD algorithm detects changes in an image and outputs a binary image with the changes only. 
+The CD algorithm detects changes in an image and outputs a binary image with the changes only. This is done with PCA and K Means custering on difference image obtained from ground truth map and real time map.
+
+The Change Detection Paper can be read <a href="https://ieeexplore.ieee.org/document/5196726">here</a> 
 
 We then used gaussian filters to evaluate safety of a room / building / floor by penalizing changes (obstacles) very close to the fire exits.   
 
@@ -44,6 +46,9 @@ This filter is convolved with the change map at various exit locations shown bel
 
 <p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=700></p>
 
+The sum of the convolutions was mapped to fire saftey of a home. 
+
+However, there was one issue with this, the choke points that could pose a threat to safety but were far from exits were not accounted for.  
 
 
 
