@@ -32,7 +32,7 @@ This was carried out through two methods, comparing ground truth and real time m
 
 This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
 
-<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=300>
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=700>
 
 The CD algorithm detects changes in an image and outputs a binary image with the changes only. 
 
@@ -42,7 +42,7 @@ We then used gaussian filters to evaluate safety of a room / building / floor by
 
 This filter is convolved with the change map at various exit locations shown below
 
-<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=300>
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=700>
 
 
 
