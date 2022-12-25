@@ -14,4 +14,30 @@ Identifying problem statement was the most challenging part as the stakeholders 
 
 Below our are snapshots from our engagement with the Fire Chief and pictures of the Professors we reached out to for problem statement identification.
 
-<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=300 align="center">
+<img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=300 text-align="centre">
+
+### Indoor Fire Safety Assistance Robot
+
+After extensive research, it was infered that home dwellers are at maximum risk from dying in a fire incident. Below is a pie chart that illustrates fatalities during fire scenarious. A major factor is "tripping, falling" which is a surprising observation. 
+
+<img src="" height=300 text-align="centre">
+
+To solve this, my team and I proposed a fire assistant robot that can be based off a roomba that maps the home and calculates safety scores by detecting and localizing objects along the way to the fire exit.
+
+<img src="" >
+
+We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
+
+This was carried out through two methods, comparing ground truth and real time maps for detecting and locating obstacles.
+
+This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
+
+<img src="" width=300>
+
+The CD algorithm detects changes in an image and outputs a binary image with the changes only. 
+
+We then used gaussian filters to evaluate safety of a room / building / floor by penalizing changes (obstacles) very close to the fire exits.   
+
+
+
+
