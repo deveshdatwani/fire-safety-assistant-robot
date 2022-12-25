@@ -26,6 +26,8 @@ To solve this, my team and I proposed a fire assistant robot that can be based o
 
 We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
 
+![robotgif](https://user-images.githubusercontent.com/49936431/209477665-48755716-1b19-4809-bd12-0e322861aeb6.gif)
+
 This was carried out through two methods, comparing ground truth and real time maps for detecting and locating obstacles.
 
 This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
