@@ -14,7 +14,7 @@ Identifying problem statement was the most challenging part as the stakeholders 
 
 Below our are snapshots from our engagement with the Fire Chief and pictures of the Professors we reached out to for problem statement identification.
 
-<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=300></p>
+<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=500></p>
 
 ### Indoor Fire Safety Assistance Robot
 
@@ -24,7 +24,7 @@ After extensive research, it was infered that home dwellers are at maximum risk 
 
 To solve this, my team and I proposed a fire assistant robot that can be based off a roomba that maps the home and calculates safety scores by detecting and localizing objects along the way to the fire exit.
 
-<center><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/capbot.mp4"></center>
+<p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/capbot.mp4"></p>
 
 We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor environment and calculate saftey scores for any indoor envornment. 
 
@@ -32,17 +32,17 @@ This was carried out through two methods, comparing ground truth and real time m
 
 This was done through a Change Detection algorithm that was original intended for remote sensing. I implemented it on cloud point data to detect obstacles and localize them in the map frame.
 
-<center><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=700></center>
+<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/changedetection.png" width=700></p>
 
 The CD algorithm detects changes in an image and outputs a binary image with the changes only. 
 
 We then used gaussian filters to evaluate safety of a room / building / floor by penalizing changes (obstacles) very close to the fire exits.   
 
-<center><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/riskeval.png" width=300></center>
+<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/riskeval.png" width=300></p>
 
 This filter is convolved with the change map at various exit locations shown below
 
-<center><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=700>>/center>
+<p align="center"><img align="center" src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/mapwithgradients.png" width=700></p>
 
 
 
