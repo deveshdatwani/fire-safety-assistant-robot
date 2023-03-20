@@ -4,7 +4,7 @@
 
 The project base was defining to build a robot for assisting fire fighting. To build on to this, extensive stakeholder research was carried out to identify a problem statement that has solutions in the Robotics domain.
 
-### Stakeholder Research
+### Stakeholder research
 
 Several stakeholders were engaged from different backgrounds. Worcester Fire Department & WPI Fire Safety department remained the primary and most prominent stakeholders. 
 
@@ -16,7 +16,7 @@ Below are snapshots from our engagement with the Fire Chief and pictures of the 
 
 <p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/firechief.jpg" height=400></p>
 
-### Indoor Fire Safety Assistance Robot
+### Indoor fire safety assistance robot
 
 After extensive research, it was inferred that home dwellers are at maximum risk from dying in a fire incident. Below is a pie chart that illustrates fatalities during fire scenarios. A major factor is "tripping, falling" which is a surprising observation. 
 
@@ -27,7 +27,7 @@ We proposed an additional **FIRE SAFETY STACK** for the roomba to map the indoor
 <p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/roomba.jpeg" width=300></p>
 <p align="center"><img src="https://github.com/deveshdatwani/fire-safety-assistant-robot/blob/main/assets/robotgif.gif" width=600></p>
 
-### The Solution
+### The solution
 
 This was carried out through two methods, comparing ground truth and real time maps for detecting and locating obstacles.
 
@@ -62,7 +62,7 @@ We found out that increase in path lengths meant the presence of an obstacle whi
 ### Problems with building a 2D map for safety assessments 
 
 
-### Final Product 
+### Final product 
 
 A combination of change detection scores and informed RRT* scores were hypothesized to calculate safety scores for fire preparedness in indoor environments. 
 
