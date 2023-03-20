@@ -58,6 +58,10 @@ We found out that increase in path lengths meant the presence of an obstacle whi
 
 <p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/rrtbase.png" width=700></p>
 
+
+### Problems with building a 2D map for safety assessments 
+
+
 ### Final Product 
 
 A combination of change detection scores and informed RRT* scores were hypothesized to calculate safety scores for fire preparedness in indoor environments. 
