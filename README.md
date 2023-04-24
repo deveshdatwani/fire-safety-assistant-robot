@@ -59,7 +59,11 @@ We found out that increase in path lengths meant the presence of an obstacle whi
 <p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/rrtbase.png" width=700></p>
 
 
-### Problems with building a 2D map for safety assessments 
+### 2D Lidar shortcoming
+
+One of the shortcomings of 2D lidar is that objects such as tables are represented as 4 circles. The planning algorithm fails here as it finds paths through the legs of the table which is ultimately not traverseable by humans. To fix this, we used morphological operations to dilate the 4 legs to to create one solid object that represent a table. 
+
+<p align="center"><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/scan.png" width=300><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/scan1.png" width=300><img src="https://raw.githubusercontent.com/deveshdatwani/fire-safety-assistant-robot/main/assets/scan2.png" width=300></p>
 
 
 ### Final product 
